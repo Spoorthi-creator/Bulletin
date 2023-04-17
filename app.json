@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "BULLETIN24*7",
+    "slug": "snack-b16b4ee7-2adb-4f77-9d28-f366d9453f44",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme":"com.aishwaryajain.bulletin",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#076da1"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#076da1"
+      },
+      "package": "com.aishwaryajain.bulletin"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
